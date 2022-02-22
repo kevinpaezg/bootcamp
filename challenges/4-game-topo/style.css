@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.game {
+  background-color: azure;
+  height: 70vh;
+  width: 100vw;
+}
+
+img {
+  width: 100px;
+  position: absolute;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.options button {
+  height: 50px;
+  width: 100px;
+  margin: 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.result table td,
+th {
+  padding: 10px;
+}
+
+.winner {
+  font-size: 22px;
+  margin: 18px;
+  /* color: ; */
+}
+
+.images {
+  visibility: hidden;
+}
+
+.images.active {
+  visibility: visible;
+}
+/* .visibility {
+  visibility: visible;
+} */

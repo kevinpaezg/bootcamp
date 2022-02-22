@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="game">
+    <img src="./topo.png" alt="" id="topo">
+    <img src="./dynamite.png" alt="" id="dynamite">
+
+    <img src="./topo.png" alt="" id="topo" class="images">
+    <img src="./topo.png" alt="" id="" class="images">
+    <img src="./dynamite.png" alt="" id="" class="images">
+    <img src="./dynamite.png" alt="" id="" class="images">
+  </div>
+
+
+  <div class="options">
+    <button id="start">Iniciar Juego</button>
+    <button id="reboot">Reiniciar Juego</button>
+  </div>
+
+  <div class="result">
+    <table border="1">
+      <thead>
+        <tr>
+          <th colspan="2">Tabla de Puntuación</th>
+        </tr>
+        <tr>
+          <th>Computadora</th>
+          <th>Jugador</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <span id="computer">0</span>
+          </td>
+          <td>
+            <span id="user">0</span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div>
+      <p id="winner" class="winner"></p>
+    </div>
+  </div>
+
+
+  <script src="./kevinpaezgallardo.js"></script>
+</body>
+
+</html>
